@@ -1,13 +1,48 @@
 {
-    "plumbers": [],
-    "completions": [],
-    "requests": [
-        {
-            "id": 1,
-            "description": "Aut sint voluptatem fugit eius quas molestiae modi.",
-            "address": "34445 Bianka Ports",
-            "budget": 400,
-            "neededBy": "2021-08-27"
-        }
-    ]
+  "plumbers": [],
+  "completions": [],
+  "requests": [
+    {
+      "id": 1,
+      "description": "Aut sint voluptatem fugit eius quas molestiae modi.",
+      "address": "34445 Bianka Ports",
+      "budget": 400,
+      "neededBy": "2021-08-27"
+    },
+    {
+      "id": 2,
+      "description": "Unclog my stinky toilet.",
+      "address": "703 Main Street",
+      "budget": 19400,
+      "neededBy": "2022-01-19"
+    },
+    {
+      "id": 4,
+      "description": "Lost wedding ring down kitchen sink. Help!",
+      "address": "9098 Oak Ave",
+      "budget": 100,
+      "neededBy": "2021-04-23"
+    },
+    {
+      "id": 5,
+      "description": "Blood is flowing up through basement floor drain.",
+      "address": "666 Elm St",
+      "budget": 250,
+      "neededBy": "2023-04-06"
+    },
+    {
+      "description": "Water dripping through light fixture",
+      "address": "666 Elm Street",
+      "budget": "440",
+      "needBy": "2022-02-11",
+      "id": 6
+    },
+    {
+      "description": "Dead birds in the birdbath...mass suicide.",
+      "address": "45 Houston Blvd",
+      "budget": "1000",
+      "needBy": "2022-02-14",
+      "id": 7
+    }
+  ]
 }
