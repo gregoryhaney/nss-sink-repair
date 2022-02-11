@@ -87,4 +87,3 @@ export const deleteRequest = (id) => {
         }
     )
 }
-

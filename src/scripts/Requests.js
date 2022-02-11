@@ -1,6 +1,5 @@
 import { getRequests, deleteRequest } from "./dataAccess.js"
 
-
 /*
     this FN is for the DELETE button rendered at the 
     end of each service request in the UI. its purpose is
@@ -12,8 +11,7 @@ const convertRequests = (request) => {
     <li>
     ${request.description}
     <button class="request__delete" id="request--${request.id}">Delete</button>
-    </li>
-    
+    </li>    
     `
 }
 
