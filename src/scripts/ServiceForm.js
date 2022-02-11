@@ -31,6 +31,17 @@ export const ServiceForm = () => {
 
 const mainContainer = document.querySelector("#container")
 
+/*
+    create an event listener that listens for the clicking
+    of the 'Submit Request' button. once clicked, the data from
+    each input field in the form is assigned to its respective
+    variable. a JSON object is then created from the variables and
+    the "sendRequest" FN is invoked to actually store the data in
+    the database.json module, specifically as a new object in
+    the "requests" array (once it has been converted from a JSON
+    object into a string) 
+*/
+
 mainContainer.addEventListener(
     "click",
     clickEvent => {
@@ -52,6 +63,7 @@ mainContainer.addEventListener(
             }
 
         // invoke the sendRequest FN to get the form data for perm storage
+        // the sendRequest FN is in the dataAccess.js module
         sendRequest(dataToSendToAPI)
 
         }
