@@ -11,6 +11,8 @@
 
 
 ## Screenshots
+- ERD:
+-![Screen Shot 2022-02-14 at 8 32 18 AM 2](https://user-images.githubusercontent.com/10354411/153883703-af4e46e9-0afe-4b5a-9fa3-1f3d9ae63070.png)
 
 
 
